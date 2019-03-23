@@ -43,7 +43,7 @@ let color3 = UIColor(hue: 0.610491388406303, saturation: 0.8959992453455925, bri
 let color4 = UIColor(hue: 0.0, saturation: 0.0, brightness: 0.4, alpha: 0.8)
 ```
 
-Of course, the output of these code is same. (note: Color with display P3 color space will sometimes change because of changing color space)
+Of course, the output of these code is same. (note: Color value with display P3 color space will sometimes change because of changing color space, but it is indistinguishable with the naked eye.)
 
 ![evidence](Assets/color_test.png)
 
@@ -76,7 +76,7 @@ $ absolute-hsb help
 ## Author
 
 - [touyou](https://touyou.dev)
-  - @touyou
+  - [@touyou](https://github.com/touyou)
 
 ## License
 
@@ -85,3 +85,4 @@ MIT License.
 ## Special Thanks
 
 This library based on [this entry](https://yutailang0119.hatenablog.com/entry/swift-syntax-uicolor) and [library](https://github.com/yutailang0119/swift-color-detector).
+And I started to develop this library in "Open Source Swift workshop in try! Swift 2019".
